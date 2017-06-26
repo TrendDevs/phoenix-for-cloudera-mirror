@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.phoenix</groupId>
   <artifactId>phoenix</artifactId>
-  <version>4.9.0-cdh5.9.1</version>
+  <version>4.9.0-cdh5.11.1</version>
   <packaging>pom</packaging>
   <name>Apache Phoenix</name>
   <description>A SQL layer over HBase</description>
@@ -27,7 +27,9 @@
     <module>phoenix-pig</module>
     <module>phoenix-queryserver-client</module>
     <module>phoenix-queryserver</module>
+<!--
     <module>phoenix-pherf</module>
+-->
     <module>phoenix-spark</module>
     <module>phoenix-hive</module>
     <module>phoenix-client</module>
@@ -69,7 +71,7 @@
   <parent>
     <groupId>com.cloudera.cdh</groupId>
     <artifactId>cdh-root</artifactId>
-    <version>5.9.1</version>
+    <version>5.11.1</version>
     <relativePath/>
   </parent>
 
